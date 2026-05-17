@@ -9,3 +9,11 @@ loans:
   onCallSupport:
     - (723) 656-8709
     - (156) 342-0956
+
+spring:
+  rabbitmq:
+    listener:
+      simple:
+        possible-declaration-retries: 0
+    template:
+      auto-delete: false
